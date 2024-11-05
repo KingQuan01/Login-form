@@ -1,0 +1,106 @@
+@import url("https://fonts.cdnfonts.com/css/poppins");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif, "Segoe UI";
+}
+
+.form__container {
+  /* background-color: blue; */
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  background-color: white;
+  padding-top: 2em;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 3em;
+}
+h2 {
+  font-family: poppins;
+  font-weight: 400;
+}
+
+h2::after {
+  content: "";
+  display: block;
+  width: 7%;
+  background-color: blue;
+  height: 0.2em;
+  border-radius: 50em;
+}
+
+.form__content {
+  padding-top: 1em;
+}
+
+.wrapping {
+  display: flex;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  gap: 2em;
+}
+
+.wrapping:not(:last-child) > div {
+  display: flex;
+  flex-flow: column;
+}
+
+.wrapping:not(:last-child) > div > input {
+  padding-left: 0.2em;
+  padding-right: 0.2em;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+  border: solid 1px rgb(63, 63, 63);
+  font-size: 0.9rem;
+}
+
+.Button__io {
+  width: 100%;
+  padding: 10px 24px;
+  background: linear-gradient(-135deg, #9b59b6, #71b7e6);
+  border: none;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  display: inline-block;
+  border-radius: 5px;
+  font-weight: 400;
+}
+
+.gender-select input {
+  accent-color: #9b59b6;
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+
+.bat label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 300;
+}
+
+.bat input {
+  width: 100%;
+  padding: 12px;
+  font-size: 17px;
+  font-weight: 400;
+  /* border: none; */
+  border-radius: 5px;
+  /* color: #fff; */
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+h3 {
+  font-family: poppins;
+  font-weight: 400;
+  margin-top: 15px;
+}

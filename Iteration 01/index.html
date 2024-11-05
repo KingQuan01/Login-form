@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="form__container">
+      <form action="#">
+        <h2>Registration Form</h2>
+        <div class="form__content">
+          <div class="wrapping">
+            <div class="bat">
+              <label for="firstname">First Name</label>
+              <input type="text" name="name" placeholder="Enter your name" />
+            </div>
+
+            <div class="bat">
+              <label for="username">Username</label>
+              <input type="text" name="name" />
+            </div>
+          </div>
+
+          <div class="wrapping">
+            <div class="bat">
+              <label for="email">Email</label>
+              <input type="email" name="email" placeholder="Enter your email" />
+            </div>
+
+            <div class="bat">
+              <label for="username">Phone number</label>
+              <input type="text" name="name" />
+            </div>
+          </div>
+
+          <div class="wrapping">
+            <div class="bat">
+              <label for="password">Password</label>
+              <input
+                type="password"
+                name="password"
+                placeholder="Enter your password"
+              />
+            </div>
+
+            <div class="bat">
+              <label for="confirmpassword">Confirm Password</label>
+              <input
+                type="password"
+                name="confirmpassword"
+                placeholder="confirm your password"
+              />
+            </div>
+          </div>
+
+          <h3>Gender</h3>
+          <div class="wrapping">
+            <div class="gender-select">
+              <input type="radio" id="male" name="gender" placeholder="male" />
+              <label for="male">Male</label>
+            </div>
+
+            <div class="gender-select">
+              <input
+                type="radio"
+                id="female"
+                name="gender"
+                placeholder="female"
+              />
+              <label for="female">Female</label>
+            </div>
+
+            <div class="gender-select">
+              <input type="radio" id="pnts" name="gender" placeholder="pnts" />
+              <label for="pnts">Prefer not to say</label>
+            </div>
+          </div>
+        </div>
+        <button class="Button__io">Register</button>
+      </form>
+    </div>
+  </body>
+</html>
